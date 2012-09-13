@@ -1,12 +1,12 @@
 #########################################################
 #							#
-# Hello, this kata calls 'one_wrong_commit'		#
+# Hello, this kata is called 'one_wrong_commit'		#
 #							#
 # The Branch contains one wrong commit.			#
 #							# 
 #  Find and delete it. 					# 
 #							# 
-# Go! Go! Go!						# 
+# Git! Git! Git!					# 
 #							# 
 # This kata was made by KroneckerDelta			# 
 #							# 
