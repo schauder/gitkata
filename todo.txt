@@ -1,8 +1,0 @@
-- Visualisierung von Commits
-- Wie überprüft man Lösungen auf Korrektheit
-- LF issues fixen
-- master branch mit master startKata.sh
-
-Kata On The Wrong Branch
-
-
