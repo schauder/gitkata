@@ -15,8 +15,8 @@ Currently your commits look like this
    |  \--- C
 remote     ^
            |
-		quickfix
-		
+        quickfix
+
 But you want it to look like this:
 
          remote
@@ -24,9 +24,10 @@ But you want it to look like this:
            v
    A <---- C <---- B
                    ^
-		           |
-		          HEAD
-				  
+                   |
+                  HEAD
+
+
 Git ahead!
 
 Note: since the B in the current and in the target structure don't have the same parent they can't be literally the same commit.
