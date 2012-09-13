@@ -58,12 +58,36 @@ If not Git Kata are a great way to hone you skills before you need them, in the 
 </p>
 <h3>How to do a Git Kata?</h3>
 <p>
-  Technically a Git Kata is a branch in the <a href"https://github.com/schauder/gitkata">Git Kata repository</a>. In order to do the kata, you clone the repository and checkout the branch of the Kata you want to do.
+  Technically a Git Kata is a branch in the <a href="https://github.com/schauder/gitkata">Git Kata repository</a>. In order to do the kata, you clone the repository:
+</p>
+<p>
+<tt>git clone https://github.com/schauder/gitkata.git</tt>
+</p>
+<p>
+Then you clone that repository once more. This allows you to actually push commits, which is part of some katas. We use <tt>kataWork</tt> as the directory for the new repository:
+</p>
+<p><tt>git clone https://github.com/schauder/gitkata.git kataWork</tt>
+</p>
+<p>Next you change into the new directory and checkout the branch for the kata you want to do. All kata branches start with <tt>kata_</tt>. For example:
+</p>
+<p>
+<tt>cd kataWork</tt>
+<tt>git checkout kata_on_the_wrong_branch</tt>
 </p>
 <p>
   You'll find a shell script <tt>startKata.sh</tt>. Start that script. It will make changes to your workspace, possibly creating files, commits and branches.
   It will also print what you are supposed to do in the Kata. It will describe the aim that you are supposed to reach. It will NOT tell you how to reach that aim, that is one main part of the Kata.
 </p>
+<p>
+The following katas are available:
+  
+<ul>
+<li>
+  <strong>kata_on_the_wrong_branch</strong> The first kata. But not an easy one. Think rebase. 
+</li>
+</ul>
+  </p>
+
 <p>
   <strong>Git Away!</strong>
 </p>
