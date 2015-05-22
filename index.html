@@ -64,17 +64,17 @@ If not Git Kata are a great way to hone you skills before you need them, in the 
   Technically a Git Kata is a branch in the <a href="https://github.com/schauder/gitkata">Git Kata repository</a>. In order to do the kata, you clone the repository:
 </p>
 <p>
-<tt>git clone https://github.com/schauder/gitkata.git --mirror</tt>
+<tt>git clone --mirror https://github.com/schauder/gitkata.git gitkata-upstream.git</tt>
 </p>
 <p>
-Then you clone that repository once more. This allows you to actually push commits, which is part of some katas. We use <tt>kataWork</tt> as the directory for the new repository:
+Then you clone that repository once more. This allows you to actually push commits, which is part of some katas. We use <tt>gitkata-work</tt> as the directory for the new repository:
 </p>
-<p><tt>git clone https://github.com/schauder/gitkata.git kataWork</tt>
+<p><tt>git clone gitkata-upstream.git gitkata-work</tt>
 </p>
 <p>Next you change into the new directory and checkout the branch for the kata you want to do. All kata branches start with <tt>kata_</tt>. For example:
 </p>
 <p>
-<tt>cd kataWork</tt><br>
+<tt>cd gitkata-work</tt><br>
 <tt>git checkout kata_on_the_wrong_branch</tt>
 </p>
 <p>
