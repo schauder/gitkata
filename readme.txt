@@ -1,11 +1,20 @@
-You are working really hard on the master branch (which is named 'kata_on_the_wrong_branch' in this case)
-Part of your work is already committed. This is when your boss comes in with an urgent request.
+Context
+-------
 
-Since your current HEAD is not ready for prime time you backup one commit, and start a new branch named 'quickfix'. You do whatever your boss wants and commit the changes to that new branch.
+You are working really hard on the branch 'kata_on_the_wrong_branch'.
+Part of your work is already committed when your boss comes in with 
+an urgent request.
 
-Thats when you realize you created a minor mess with your branches.
+Since your current HEAD is not ready for prime time, you backup one 
+commit, and start a new branch named 'quickfix'. 
 
-Currently your commits look like this
+You do whatever work your boss wants and commit the changes to that 
+new branch.
+
+That is when you realize you created a minor mess with your branches.
+
+Currently, your commits look like this:
+
 
          kata_on_the_wrong_branch
            |
@@ -16,6 +25,7 @@ Currently your commits look like this
 remote     ^
            |
         quickfix
+
 
 But you want it to look like this:
 
@@ -30,4 +40,5 @@ But you want it to look like this:
 
 Git ahead!
 
-Note: since the B in the current and in the target structure don't have the same parent they can't be literally the same commit.
+Note: Since B in the current and target structures don't 
+have the same parent commit, they can't be commited together.
