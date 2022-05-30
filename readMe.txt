@@ -27,7 +27,7 @@
 #	    A1-B2-C3					#
 #							#
 #							# 
-# Git! Git! Git!						# 
+# Git! Git! Git!					# 
 #							# 
 # This kata was made by KroneckerDelta			# 
 #							# 
